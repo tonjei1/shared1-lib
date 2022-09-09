@@ -1,4 +1,4 @@
-def(string repoUrl){
+def(string repoUrl) {
   
 pipeline {
      agent any
