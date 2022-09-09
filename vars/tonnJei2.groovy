@@ -13,7 +13,7 @@ pipeline {
          }
          stage('Demo New app'){
             steps{
-                sh 'cat etc/passwd'
+                sh 'cat /etc/passwd'
                 echo 'Jenkinns was easy'
             }
          }
